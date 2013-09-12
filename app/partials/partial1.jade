@@ -1,0 +1,4 @@
+div(ng-controller='MainController')
+	h1 {{msg}}
+	div(ai-pie-chart, data="pieData", width="500", chart-colors="colors")
+	button(ng-click="swapData()") Swap
